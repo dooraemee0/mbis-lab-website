@@ -1,14 +1,26 @@
 ---
-title: AI seminar
+title: AI Seminar
 ---
 
-[{% include icon.html icon="fa-solid fa-arrow-left" %}Activity](../)
+# {% include icon.html icon="fa-solid fa-chalkboard-user" %}AI Seminar
 
-# {% include icon.html icon="fa-solid fa-chalkboard-user" %}AI seminar
-
-AI seminar schedule and materials.
+AI seminar records and topics from MBIS Lab members.
 
 {% include section.html %}
 
-<!-- TODO: add content here. -->
-_Content coming soon._
+{% for item in site.data.activity_ai_seminars %}
+{% capture text %}
+**{{ item.date }}**  
+**Speaker:** {{ item.speaker }}  
+**Topic:** {{ item.topic }}
+
+{{ item.summary }}
+
+{% if item.source %}
+[Original post]({{ item.source }})
+{% endif %}
+{% endcapture %}
+
+{% include feature.html image=item.image title=item.title text=text link=item.source %}
+
+{% endfor %}
