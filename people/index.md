@@ -1,7 +1,7 @@
 ---
 title: People
 nav:
-  order: 1
+  order: 4
   tooltip: Professor, members, and alumni
 ---
 
