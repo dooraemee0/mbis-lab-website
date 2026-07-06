@@ -1,0 +1,42 @@
+- title: Multimodal Biomedical System
+  subtitle: Optical, ultrasound, and multimodal biomedical imaging systems
+  image: "images/research/multimodal-biomedical-system.png"
+  link: projects
+  description: >
+    Development of multimodal biomedical imaging systems for early detection and characterization of diseases.
+    This research direction includes optical imaging, high-frequency ultrasound techniques, multimodal endoscopy,
+    and system-level biomedical imaging platforms.
+  tags:
+    - multimodal-imaging
+    - optical-imaging
+    - high-frequency-ultrasound
+    - endoscopy
+
+- title: Mobile Healthcare System
+  subtitle: Smartphone-based and portable biomedical monitoring systems
+  image: "images/research/mobile-healthcare-system.png"
+  link: projects
+  description: >
+    Development of mobile healthcare systems, including smartphone-based mobile multispectral imaging systems
+    and deep learning-based ECG classification. Smartphone-based multispectral imaging systems can be used to
+    quantitatively detect skin lesions and support improved diagnostic outcomes.
+  tags:
+    - mobile-healthcare
+    - smartphone-imaging
+    - multispectral-imaging
+    - ECG-classification
+
+- title: Deep Learning-based Image Analysis and Enhancement
+  subtitle: AI-driven medical image analysis, segmentation, tracking, and enhancement
+  image: "images/research/deep-learning-image-analysis-enhancement.png"
+  link: projects
+  description: >
+    Development of deep learning and machine learning techniques for medical imaging and biomedical image analysis.
+    Research topics include spectral image analysis of tumor regions and skin lesions, 3D semantic segmentation of
+    diseased regions in ultrasound images, time-resolved object tracking, segmentation in biomedical optical images,
+    and advanced image enhancement.
+  tags:
+    - deep-learning
+    - medical-image-analysis
+    - segmentation
+    - image-enhancement

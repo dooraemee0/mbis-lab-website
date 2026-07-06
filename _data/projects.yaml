@@ -1,0 +1,76 @@
+- title: Multimodal Endoscopy System
+  subtitle: Multimodal endoscopic imaging for malignant gastric lesion localization and delineation
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/multimodal-endoscopy-system.jpg
+  link: research
+  description: >
+    Development of a novel multimodal endoscopy system for localization and delineation of malignant gastric lesions
+    using complementary biomedical imaging information.
+  tags:
+    - endoscopy
+    - multimodal-imaging
+    - gastric-lesion
+    - clinical-translation
+
+- title: Mobile Multispectral Imaging for Skin Care
+  subtitle: Smartphone-based multispectral imaging for quantitative skin lesion assessment
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/mobile-multispectral-skin-imaging.jpg
+  link: research
+  description: >
+    Development of smartphone-based mobile multispectral imaging systems for skin care and quantitative detection
+    of skin lesions.
+  tags:
+    - mobile-healthcare
+    - skin-diagnosis
+    - multispectral-imaging
+    - smartphone-imaging
+
+- title: Deep Learning-based Medical Image Analysis
+  subtitle: AI models for biomedical images, ultrasound images, and optical images
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/deep-learning-medical-image-analysis.jpg
+  link: research
+  description: >
+    Development of deep learning algorithms for advanced medical image analysis and enhancement, including
+    biomedical optical images, ultrasound images, and spectral images.
+  tags:
+    - deep-learning
+    - medical-image-analysis
+    - ultrasound
+    - optical-imaging
+
+- title: Ultrasound Neuromodulation System
+  subtitle: Ultrasound-based biomedical system research
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/ultrasound-neuromodulation-system.jpg
+  link: research
+  description: >
+    Development of ultrasound neuromodulation-related biomedical systems and signal/image analysis technologies.
+  tags:
+    - ultrasound
+    - neuromodulation
+    - biomedical-system
+
+- title: High-frequency Ultrasound Microbeam Technique
+  subtitle: Ultrasound microbeam techniques for probing cell mechanics
+  image: images/fallback.svg  # TODO: add images/projects/high-frequency-ultrasound-microbeam.jpg
+  link: research
+  description: >
+    Research on high-frequency ultrasound microbeam techniques for probing cell mechanics and related biomedical
+    applications.
+  tags:
+    - high-frequency-ultrasound
+    - cell-mechanics
+    - acoustic-techniques
+
+- title: Deep Learning-based ECG Classification
+  subtitle: Advanced ECG classification algorithms for mobile healthcare
+  image: images/fallback.svg  # TODO: add images/projects/ecg-classification.jpg
+  link: research
+  description: >
+    Development of deep learning-based ECG classification algorithms for mobile healthcare applications.
+  tags:
+    - ECG
+    - deep-learning
+    - mobile-healthcare

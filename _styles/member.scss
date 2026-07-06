@@ -1,0 +1,63 @@
+---
+---
+
+$member-wrap: 700px;
+
+.member-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.member-aside {
+  flex: 0 0 240px;
+  max-width: 240px;
+  text-align: center;
+}
+
+.member-aside > * {
+  margin: 0;
+}
+
+.member-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* keep the first heading/paragraph in the body from adding extra top gap */
+.member-body > *:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: $member-wrap) {
+  .member-layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .member-aside {
+    flex-basis: auto;
+    max-width: unset;
+    width: 100%;
+  }
+}
+
+/*
+  Force the Researchers section into a 3-per-row layout (so 5 members
+  wrap as 3 on top, 2 on the bottom). Each portrait is ~175px wide with
+  20px margins on each side (~215px total); capping the row at 3 widths
+  centers the group and wraps the rest to the next line.
+*/
+.researchers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .researchers-grid {
+    max-width: 460px;
+  }
+}

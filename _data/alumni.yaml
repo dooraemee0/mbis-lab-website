@@ -1,0 +1,105 @@
+# Alumni data crawled from MBIS public Alumni page.
+# Ordered newest-first by latest activity year (graduation or latest position).
+# Not automatically used by Greenelab unless you build an Alumni page/section.
+
+- name: "Moon Hwan Lee"
+  degree: "Ph.D. 2026"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Max Planck Institute for Medical Research"
+
+- name: "Fredrik Salling Dausel"
+  degree: "M.S. 2026"
+  department: "Dept. Interdisciplinary Studies of Artificial Intelligence"
+  current: "Samsung Electronics MX Business"
+
+- name: "Sewoong Kim"
+  degree: "Ph.D. 2023, Postdoctoral researcher 2025"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "RNS Lab"
+
+- name: "Thiago Coutinho Cavalcanti"
+  degree: "Ph.D. 2024"
+  image: "images/people/thiago-coutinho-cavalcanti.jpeg"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Postdoctoral researcher, DGIST (MBIS lab)"
+
+- name: "HeeYeon Park"
+  degree: "M.S. 2023"
+  image: "images/people/heeyeon-park.jpeg"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Postmaster researcher, DGIST (MBIS lab)"
+
+- name: "Kyungsu Lee"
+  degree: "Ph.D. 2023"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Assistant Professor, Jeonbuk Nat. University"
+
+- name: "Sangyeon Youn"
+  degree: "Ph.D. 2023"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Samsung Electronics (Foundry division)"
+
+- name: "JaeGeun Park"
+  degree: "M.S. 2023"
+  department: "Dept. Interdisciplinary Studies of Artificial Intelligence"
+  current: "ALPINION MEDICAL SYSTEMS"
+
+- name: "Minji Kang"
+  degree: "M.S. 2023"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Samsung Medison"
+
+- name: "Jim Knebel"
+  degree: "M.S. 2023"
+  department: "Dept. Interdisciplinary Studies of Artificial Intelligence"
+  current: "Dabeeo"
+
+- name: "Hahmin Lew"
+  degree: "M.S. 2023"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Kleon R&D"
+
+- name: "Haeyun Lee"
+  degree: "Ph.D. 2022"
+  department: "Dept. Electrical Engineering and Computer Science"
+  current: "Assistant Professor, Korea University of Technology and Education"
+
+- name: "JaeSeong Kim"
+  degree: "M.S. 2022"
+  department: "Dept. Information and Communication Engineering"
+  current: "ALPINION MEDICAL SYSTEMS"
+
+- name: "Jeehoon Son"
+  degree: "M.S. 2022"
+  department: "Dept. Information and Communication Engineering"
+  current: "HL Klemove"
+
+- name: "Jihun Kim"
+  degree: "Ph.D. 2019"
+  department: "Dept. Information and Communication Engineering"
+  current: "Assistant Professor, Kangnam University"
+
+- name: "JungHo Park"
+  degree: "M.S. 2019"
+  department: "Dept. Information and Communication Engineering"
+  current: "Hanwha Aerospace"
+
+- name: "Min Joo Hwang"
+  degree: "M.S. 2018"
+  department: "Dept. Information and Communication Engineering"
+  current: "Samsung Electronics (MX division)"
+
+- name: "Manjae Kim"
+  degree: "M.S. 2017"
+  department: "Dept. Information and Communication Engineering"
+  current: "LG Display"
+
+- name: "Jinman Park"
+  degree: "M.S. 2016"
+  department: "Dept. Information and Communication Engineering"
+  current: "Hyundai Robotics"
+
+- name: "Sehyo Youn"
+  degree: "M.S. 2016"
+  department: "Dept. Information and Communication Engineering"
+  current: "Seoul Semiconductor"
