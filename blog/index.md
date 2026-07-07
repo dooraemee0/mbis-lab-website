@@ -12,7 +12,7 @@ News, awards, photos, internal resources, and AI seminar records from MBIS Lab.
 {% include section.html %}
 
 {% capture text %}
-Lab news, publications, newcomers, graduation, conference acceptance, and other updates.
+Lab news, publications, newcomers, graduation, <br>conference acceptance, and other updates.
 
 {% include button.html link="blog/news" text="View News" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 {% endcapture %}
