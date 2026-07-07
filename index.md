@@ -62,7 +62,7 @@ Our lab brings together researchers in biomedical engineering, medical imaging, 
 
 {%
   include feature.html
-  image="images/research/deep-learning-image-analysis-enhancement.png"
+  image="images/team.jpg"
   link="people"
   title="Our Team"
   flip=true

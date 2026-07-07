@@ -2,6 +2,8 @@
 title: S-sharp reservation
 ---
 
+<p class="page-back"><a href="{{ '/blog/resources/' | relative_url }}">← Internal Resources</a></p>
+
 # {% include icon.html icon="fa-solid fa-calendar-check" %}S-sharp reservation
 
 S-sharp reservation page for MBIS Lab members.
@@ -27,3 +29,14 @@ Use the S-sharp reservation page to check the current reservation status and res
   title="S-sharp reservation"
   text=text
 %}
+
+<style>
+.page-back {
+  margin: 24px 0 48px;
+  font-size: 1.1rem;
+}
+.page-back a {
+  color: #0098d8;
+  text-decoration: underline;
+}
+</style>
