@@ -6,7 +6,7 @@ title: News
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News
 
-Lab news, publications, newcomers, graduation, conference acceptance, and other updates from MBIS Lab.
+Lab news, publications, newcomers, graduation, <br>conference acceptance, and other updates from MBIS Lab.
 
 {% include section.html %}
 

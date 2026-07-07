@@ -17,7 +17,7 @@ Use the S-sharp reservation page to check the current reservation status and res
 {%
   include button.html
   link="https://moonhwanlee.notion.site/S-sharp-reservation-2d557e39ed9880b8bd6ed8e4cfc4086d"
-  text="예약하기"
+  text="Reservation"
   icon="fa-solid fa-arrow-up-right-from-square"
 %}
 
