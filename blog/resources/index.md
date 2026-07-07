@@ -24,7 +24,7 @@ Internal resources for MBIS Lab members.
       </p>
 
       <a class="resource-button" href="https://moonhwanlee.notion.site/S-sharp-reservation-2d557e39ed9880b8bd6ed8e4cfc4086d" target="_blank" rel="noopener">
-        예약하기
+        Reservation
         <span>↗</span>
       </a>
     </div>
