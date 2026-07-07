@@ -4,18 +4,26 @@ title: MBIS-Git
 
 # {% include icon.html icon="fa-brands fa-github" %}MBIS-Git
 
-This page keeps the previous MBIS Git resource available from the new website.
+GitHub organization page for MBIS Lab.
 
 {% include section.html %}
 
-{% for item in site.data.activity_resources %}
-{% if item.title == "MBIS-Git" %}
 {% capture text %}
-{{ item.description }}
 
-{% include button.html link=item.link text="Open original page" icon="fa-solid fa-arrow-up-right-from-square" %}
+Access MBIS Lab repositories, project codes, and shared development resources through the MBIS-Git organization.
+
+{%
+  include button.html
+  link="https://github.com/MBIS-Git"
+  text="Open MBIS-Git"
+  icon="fa-solid fa-arrow-up-right-from-square"
+%}
+
 {% endcapture %}
 
-{% include feature.html image="images/hero/hero-lab.jpg" title=item.title text=text link=item.link %}
-{% endif %}
-{% endfor %}
+{%
+  include feature.html
+  image="images/blog/mbis-git.jpg"
+  title="MBIS-Git"
+  text=text
+%}

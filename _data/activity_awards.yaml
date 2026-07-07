@@ -1,27 +1,135 @@
+- date: '2026-05-15'
+  title: 'Minseong Kim, The Korean Society of Medical & Biological Engineering, Oral Presentation Grand Prize, 2026'
+  category: Award
+  image: images/blog/award/minseong-kim-kosombe-2026-grand-prize.jpg
+  summary: 'Minseong Kim received the grand prize in an oral presentation session at the 2026 KOSOMBE Spring Conference.'
+- date: '2025-11-19'
+  title: 'Sehyun Park, Inaugural Dallas-Daegu Research Symposium, Student Poster Presentation Award, 2025'
+  category: Award
+  image: images/blog/award/sehyun-park-dallas-daegu-research-symposium-2025.jpg
+  summary: 'Sehyun Park received an award at the Inaugural Dallas-Daegu Research Symposium: Glocal Lab Student Poster Presentation.'
+- date: '2025-11-19'
+  title: 'Sehyun Park, The Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2025'
+  category: Award
+  image: images/blog/award/sehyun-park-kosombe-2025-fall.jpg
+  summary: 'Sehyun Park received an excellent presentation award at the 2025 KOSOMBE Fall Conference.'
 - date: '2025-06-19'
-  title: Sehyun Park, IC-UEBA 2025, "Best Student Paper Award", 2025
+  title: 'Sehyun Park, IC-UEBA 2025, Best Student Paper Award, 2025'
   category: Award
   image: images/blog/award/sehyun-award-ic-ueba-2025.png
-  summary: Sehyun Park received the Best Student Paper Award at IC-UEBA 2025.
-  source: https://mbis.dgist.ac.kr/HOME/mbis/sub.htm?hmode=p&nav_code=mbi1718089128
+  summary: 'Sehyun Park received the Best Student Paper Award at IC-UEBA 2025.'
 - date: '2022-08-28'
-  title: Min Ji Kang, DGIST, "Outstanding Poster Award", 2022
+  title: 'Min Ji Kang, DGIST, Outstanding Poster Award, 2022'
   category: Award
   image: images/blog/award/minji-kang-outstanding-poster-2022.jpg
-  summary: Min Ji Kang received an Outstanding Poster Award at DGIST in 2022.
-  source: https://mbis.dgist.ac.kr/HOME/mbis/sub.htm?hmode=p&nav_code=mbi1718089128
+  summary: 'Min Ji Kang received an Outstanding Poster Award at DGIST in 2022.'
 - date: '2022-08-19'
-  title: Moon Hwan Lee, Gliopathic Pain Research Center, 우수포스터상, 2022
+  title: 'Moon Hwan Lee, Gliopathic Pain Research Center, Excellent Poster Award, 2022'
   category: Award
   image: images/blog/award/moon-hwan-lee-poster-award-2022.jpg
-  summary: Moon Hwan Lee received an excellent poster award from the Gliopathic Pain
-    Research Center in 2022.
-  source: https://mbis.dgist.ac.kr/HOME/mbis/sub.htm?hmode=p&nav_code=mbi1718089128
+  summary: 'Moon Hwan Lee received an excellent poster award from the Gliopathic Pain Research Center in 2022.'
 - date: '2021-11-13'
-  title: Haeyun Lee, The Korean Society of Medical & Biological Engineering, "Paper
-    Award", 2021
+  title: 'Haeyun Lee, The Korean Society of Medical & Biological Engineering, Paper Award, 2021'
   category: Award
   image: images/blog/award/haeyun-lee-paper-award-2021.png
-  summary: Haeyun Lee received a Paper Award from the Korean Society of Medical &
-    Biological Engineering in 2021.
-  source: https://mbis.dgist.ac.kr/HOME/mbis/sub.htm?hmode=p&nav_code=mbi1718089128
+  summary: 'Haeyun Lee received a Paper Award from the Korean Society of Medical & Biological Engineering in 2021.'
+- date: '2021-11-02'
+  title: 'Kyungsu Lee, DGIST, Outstanding Research Award, 2021'
+  category: Award
+  image: images/blog/award/kyungsu-lee-dgist-outstanding-research-2021.jpg
+  summary: 'Kyungsu Lee received an outstanding research award in the areas of information and communication engineering.'
+- date: '2021-09-11'
+  title: 'Hah Min Lew, DGIST ICE Student Conference, Outstanding Poster Award, 2021'
+  category: Award
+  image: images/blog/award/hah-min-lew-dgist-ice-poster-2021.jpg
+  summary: 'Hah Min Lew received an Outstanding Poster Award at the 2021 DGIST ICE Student Conference.'
+- date: '2021-09-11'
+  title: 'Moon Hwan Lee, DGIST ICE Student Conference, Outstanding Speech Award, 2021'
+  category: Award
+  image: images/blog/award/moon-hwan-lee-dgist-ice-speech-2021.jpg
+  summary: 'Moon Hwan Lee received an Outstanding Speech Award at the 2021 DGIST ICE Student Conference.'
+- date: '2021-05-16'
+  title: 'Hah Min Lew, The Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2021'
+  category: Award
+  image: images/blog/award/hah-min-lew-kosombe-2021-spring.jpg
+  summary: 'Hah Min Lew received an excellent presentation award at the 2021 KOSOMBE Spring Conference.'
+- date: '2021-05-11'
+  title: 'JaeSeong Kim, The Acoustical Society of Korea, Excellent Presentation Award, 2021'
+  category: Award
+  image: images/blog/award/jaeseong-kim-acoustical-society-2021.jpg
+  summary: 'JaeSeong Kim received an excellent presentation award from the Acoustical Society of Korea.'
+- date: '2020-12-18'
+  title: 'Kyungsu Lee, ICT Colloquium 2020, Excellent Student Creative Project Award, 2020'
+  category: Award
+  image: images/blog/award/kyungsu-lee-ict-colloquium-2020.jpg
+  summary: 'Kyungsu Lee received an award for excellent performance in the ICT Colloquium 2020 student creative project.'
+- date: '2020-11-11'
+  title: 'Sangyeon Youn, The Acoustical Society of Korea, Excellent Presentation Award, 2020'
+  category: Award
+  image: images/blog/award/sangyeon-youn-acoustical-society-2020.jpg
+  summary: 'Sangyeon Youn received an excellent presentation award from the Acoustical Society of Korea.'
+- date: '2019-11-15'
+  title: 'Sangyeon Youn, The Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2019'
+  category: Award
+  image: images/blog/award/sangyeon-youn-kosombe-2019.jpg
+  summary: 'Sangyeon Youn received an excellent presentation award from the Korean Society of Medical & Biological Engineering.'
+- date: '2018-12-24'
+  title: 'Jihun Kim, DGIST, Outstanding Graduate Student Award, 2018'
+  category: Award
+  image: images/blog/award/jihun-kim-dgist-outstanding-graduate-2018.jpg
+  summary: 'Jihun Kim received a DGIST award recognizing superior performance and ongoing commitment as a role model for other graduate students.'
+- date: '2017-12-28'
+  title: 'Jihun Kim, DGIST, Outstanding Graduate Student Award, 2017'
+  category: Award
+  image: images/blog/award/jihun-kim-dgist-outstanding-graduate-2017.jpg
+  summary: 'Jihun Kim received a DGIST award recognizing superior performance and ongoing commitment as a role model for other graduate students.'
+- date: '2017-02-15'
+  title: 'Minjoo Hwang, DGIST ICE Student Conference, Outstanding Speech Award, 2017'
+  category: Award
+  image: images/blog/award/minjoo-hwang-dgist-ice-speech-2017.jpg
+  summary: 'Minjoo Hwang received an Outstanding Speech Award at the 2017 DGIST ICE Student Conference.'
+- date: '2017-02-14'
+  title: 'Jihun Kim, DGIST ICE Student Conference, Outstanding Speech Award, 2017'
+  category: Award
+  image: images/blog/award/jihun-kim-dgist-ice-speech-2017.jpg
+  summary: 'Jihun Kim received an Outstanding Speech Award at the 2017 DGIST ICE Student Conference.'
+- date: '2017-02-14'
+  title: 'Sangyeon Youn, DGIST ICE Student Conference, Outstanding Speech Award, 2017'
+  category: Award
+  image: images/blog/award/sangyeon-youn-dgist-ice-speech-2017.jpg
+  summary: 'Sangyeon Youn received an Outstanding Speech Award at the 2017 DGIST ICE Student Conference.'
+- date: '2016-09-29'
+  title: 'Sewoong Kim, Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2016'
+  category: Award
+  image: images/blog/award/sewoong-kim-kosombe-2016-fall.jpg
+  summary: 'Sewoong Kim received an excellent presentation award from the Korean Society of Medical & Biological Engineering.'
+- date: '2016-05-14'
+  title: 'Manjae Kim, The Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2016'
+  category: Award
+  image: images/blog/award/manjae-kim-kosombe-2016-spring.jpg
+  summary: 'Manjae Kim received an excellent presentation award from the Korean Society of Medical & Biological Engineering.'
+- date: '2016-05-13'
+  title: 'Jihun Kim, The Acoustical Society of Korea, Best Paper Presentation Award, 2016'
+  category: Award
+  image: images/blog/award/jihun-kim-acoustical-society-2016.jpg
+  summary: 'Jihun Kim received a best paper presentation award from the Acoustical Society of Korea.'
+- date: '2015-11-14'
+  title: 'Jihun Kim, The Acoustical Society of Korea, Excellent Presentation Award, 2015'
+  category: Award
+  image: images/blog/award/jihun-kim-acoustical-society-2015-fall.jpg
+  summary: 'Jihun Kim received an excellent presentation award from the Acoustical Society of Korea.'
+- date: '2015-08-31'
+  title: 'Jihun Kim, DGIST ICE Student Conference, Paper Award, 2015'
+  category: Award
+  image: images/blog/award/jihun-kim-dgist-ice-paper-2015.jpg
+  summary: 'Jihun Kim received an award at the DGIST ICE Student Conference.'
+- date: '2015-05-11'
+  title: 'Jin Man Park, The Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2015'
+  category: Award
+  image: images/blog/award/jin-man-park-kosombe-2015.jpg
+  summary: 'Jin Man Park received an excellent presentation award from the Korean Society of Medical & Biological Engineering.'
+- date: '2015-05-11'
+  title: 'Sewoong Kim, The Korean Society of Medical & Biological Engineering, Excellent Presentation Award, 2015'
+  category: Award
+  image: images/blog/award/sewoong-kim-kosombe-2015.jpg
+  summary: 'Sewoong Kim received an excellent presentation award from the Korean Society of Medical & Biological Engineering.'

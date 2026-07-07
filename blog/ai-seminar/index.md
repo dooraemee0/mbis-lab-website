@@ -15,12 +15,8 @@ AI seminar records and topics from MBIS Lab members.
 **Topic:** {{ item.topic }}
 
 {{ item.summary }}
-
-{% if item.source %}
-[Original post]({{ item.source }})
-{% endif %}
 {% endcapture %}
 
-{% include feature.html image=item.image title=item.title text=text link=item.source %}
+{% include feature.html image=item.image title=item.title text=text %}
 
 {% endfor %}

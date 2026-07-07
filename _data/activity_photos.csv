@@ -1,2 +1,54 @@
-category,date,image,source,summary,title
-Photo,2016-05-18,images/blog/photo/kosombe-2016.png,https://mbis.dgist.ac.kr/HOME/mbis/sub.htm?hmode=m&mode=view&mv_data=aWR4PTM1JnN0YXJ0UGFnZT00NSZsaXN0Tm89NiZ0YWJsZT1leF9iYnNfZGF0YV9tYmlzJnNpdGVfY29kZT1tYmlzJm5hdl9jb2RlPW1iaTE3MTc1NjY1MzUmY29kZT1BdUZoV2liRFE0b3Umc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ,Manjae Kim received the Best Paper Award at the 2016 KOSOMBE conference.,KOSOMBE 2016
+date,title,category,image,summary
+2026-05-18,Teachers' Day 2026,Photo,images/blog/photo/teachers-day-2026.jpg,MBIS Lab celebrated Teachers' Day 2026.
+2026-05-15,KOSOMBE 2026 - Spring (Jeju),Photo,images/blog/photo/kosombe-2026-spring-jeju.jpg,MBIS Lab members attended the 2026 KOSOMBE Spring Conference in Jeju.
+2025-11-21,KOSOMBE 2025 - Autumn (Gimhae),Photo,images/blog/photo/kosombe-2025-autumn-gimhae.jpg,MBIS Lab members attended the 2025 KOSOMBE Autumn Conference in Gimhae.
+2025-09-24,"IUS 2025 (Utrecht, Netherlands)",Photo,images/blog/photo/ius-2025-utrecht-netherlands.jpg,"MBIS Lab members attended IEEE IUS 2025 in Utrecht, Netherlands."
+2025-08-26,2025 MBIS Summer Workshop,Photo,images/blog/photo/mbis-2025-summer-workshop.jpg,MBIS Lab held the 2025 summer workshop.
+2025-08-22,MBIS 2025 Summer Internship,Photo,images/blog/photo/mbis-2025-summer-internship.jpg,MBIS Lab hosted the 2025 summer internship program.
+2025-06-19,IC-UEBA 2025 (Daegu),Photo,images/blog/photo/ic-ueba-2025-daegu.jpg,MBIS Lab members participated in IC-UEBA 2025 in Daegu.
+2025-05-14,Teachers' Day 2025,Photo,images/blog/photo/teachers-day-2025.jpg,MBIS Lab celebrated Teachers' Day 2025.
+2025-05-12,KOSOMBE 2025 - Spring (Jeju),Photo,images/blog/photo/kosombe-2025-spring-jeju-1.jpg,MBIS Lab members attended the 2025 KOSOMBE Spring Conference in Jeju.
+2025-05-12,KOSOMBE 2025 - Spring (Jeju),Photo,images/blog/photo/kosombe-2025-spring-jeju-2.jpg,MBIS Lab members attended the 2025 KOSOMBE Spring Conference in Jeju.
+2024-11-11,KOSOMBE 2024 - Autumn (Seoul),Photo,images/blog/photo/kosombe-2024-autumn-seoul.jpg,MBIS Lab members attended the 2024 KOSOMBE Autumn Conference in Seoul.
+2024-09-30,"UFFC-JS 2024 (Taipei, Taiwan)",Photo,images/blog/photo/uffc-js-2024-taipei-taiwan.jpg,"MBIS Lab members attended UFFC-JS 2024 in Taipei, Taiwan."
+2024-07-25,MBIS 2024 Summer Internship,Photo,images/blog/photo/mbis-2024-summer-internship-1.jpg,MBIS Lab hosted the 2024 summer internship program.
+2024-07-25,MBIS 2024 Summer Internship,Photo,images/blog/photo/mbis-2024-summer-internship-2.jpg,MBIS Lab hosted the 2024 summer internship program.
+2024-05-17,KOSOMBE 2024 (Wonju),Photo,images/blog/photo/kosombe-2024-wonju.jpg,MBIS Lab members attended KOSOMBE 2024 in Wonju.
+2024-02-20,Congratulations for the graduation 2024,Photo,images/blog/photo/graduation-2024.jpg,MBIS Lab celebrated the 2024 graduation.
+2024-01-11,MBIS of 2024,Photo,images/blog/photo/mbis-of-2024.jpg,MBIS Lab group photo in 2024.
+2023-09-15,"IUS 2023 (Montreal, Canada)",Photo,images/blog/photo/ius-2023-montreal-canada.jpg,"MBIS Lab members attended IEEE IUS 2023 in Montreal, Canada."
+2023-08-11,Congratulations for the graduation 2023,Photo,images/blog/photo/graduation-2023.jpg,MBIS Lab celebrated the 2023 graduation.
+2023-04-26,"ISTU 2023 (Lyon, France)",Photo,images/blog/photo/istu-2023-lyon-france.jpg,"MBIS Lab members attended ISTU 2023 in Lyon, France."
+2023-02-16,Congratulations for the graduation 2023,Photo,images/blog/photo/graduation-2023-february.jpg,MBIS Lab celebrated the February 2023 graduation.
+2022-10-29,ICA 2022 (Gyeongju),Photo,images/blog/photo/ica-2022-gyeongju.jpg,MBIS Lab members attended ICA 2022 in Gyeongju.
+2022-10-11,"IUS 2022 (Venice, Italy)",Photo,images/blog/photo/ius-2022-venice-italy.jpg,"MBIS Lab members attended IEEE IUS 2022 in Venice, Italy."
+2022-03-11,SPIE Photonics West 2022,Photo,images/blog/photo/spie-photonics-west-2022.jpg,MBIS Lab members participated in SPIE Photonics West 2022.
+2022-02-21,2022 MBIS 2nd Ph.D. Graduation,Photo,images/blog/photo/mbis-2nd-phd-graduation-2022.jpg,MBIS Lab celebrated its second Ph.D. graduation.
+2021-11-11,Outstanding Researcher Award,Photo,images/blog/photo/outstanding-researcher-award-2021.jpg,MBIS Lab member received an outstanding researcher award.
+2021-06-11,MBIS of 2021 (at Yeosu),Photo,images/blog/photo/mbis-of-2021-yeosu.jpg,MBIS Lab workshop/photo at Yeosu in 2021.
+2021-06-11,During a fNIRS experiment,Photo,images/blog/photo/fnirs-experiment-2021.jpg,A scene from an fNIRS experiment in MBIS Lab.
+2020-02-20,Scene of disinfection,Photo,images/blog/photo/scene-of-disinfection-2020.jpg,A scene of disinfection during the COVID-19 period.
+2019-05-19,2019 Korean Acoustical Society Spring Conference,Photo,images/blog/photo/korean-acoustical-society-2019-spring-1.jpg,MBIS Lab members attended the 2019 Korean Acoustical Society Spring Conference.
+2019-05-19,2019 Korean Acoustical Society Spring Conference,Photo,images/blog/photo/korean-acoustical-society-2019-spring-2.jpg,MBIS Lab members attended the 2019 Korean Acoustical Society Spring Conference.
+2018-12-28,Graduate Student Research Festival,Photo,images/blog/photo/graduate-student-research-festival-2018.jpg,MBIS Lab participated in the graduate student research festival.
+2018-05-25,"ISET 2018 (Jeju, Korea)",Photo,images/blog/photo/iset-2018-jeju-korea.jpg,"MBIS Lab members attended ISET 2018 in Jeju, Korea."
+2018-05-17,Teacher's Day 2018,Photo,images/blog/photo/teachers-day-2018.jpg,MBIS Lab celebrated Teacher's Day 2018.
+2018-05-12,KOSOMBE 2018,Photo,images/blog/photo/kosombe-2018.jpg,MBIS Lab members attended KOSOMBE 2018.
+2018-04-11,Cherry Blossom,Photo,images/blog/photo/cherry-blossom-2018.jpg,MBIS Lab group photo during cherry blossom season.
+2018-03-11,SPIE Photonics West 2018,Photo,images/blog/photo/spie-photonics-west-2018-1.jpg,MBIS Lab members participated in SPIE Photonics West 2018.
+2018-03-11,SPIE Photonics West 2018,Photo,images/blog/photo/spie-photonics-west-2018-2.jpg,MBIS Lab members participated in SPIE Photonics West 2018.
+2018-03-11,SPIE Photonics West 2018,Photo,images/blog/photo/spie-photonics-west-2018-3.jpg,MBIS Lab members participated in SPIE Photonics West 2018.
+2017-12-27,Outstanding Researcher Award,Photo,images/blog/photo/outstanding-researcher-award-2017.jpg,MBIS Lab member received an outstanding researcher award.
+2017-11-11,Bio Future Forum 2017,Photo,images/blog/photo/bio-future-forum-2017.jpg,MBIS Lab participated in Bio Future Forum 2017.
+2017-07-15,"EMBC 2017 (Jeju, Korea)",Photo,images/blog/photo/embc-2017-jeju-korea.jpg,"MBIS Lab members attended EMBC 2017 in Jeju, Korea."
+2017-05-17,Teacher's Day 2017,Photo,images/blog/photo/teachers-day-2017.jpg,MBIS Lab celebrated Teacher's Day 2017.
+2017-02-11,SPIE Photonics West 2017,Photo,images/blog/photo/spie-photonics-west-2017.jpg,MBIS Lab members participated in SPIE Photonics West 2017.
+2016-10-11,"IUS 2016 (Tours, France)",Photo,images/blog/photo/ius-2016-tours-france.jpg,"MBIS Lab members attended IEEE IUS 2016 in Tours, France."
+2016-10-02,Korean Society of Biomechanics 2016,Photo,images/blog/photo/korean-society-biomechanics-2016.jpg,MBIS Lab members attended the Korean Society of Biomechanics meeting in 2016.
+2016-09-26,MBIS Lab Workshop 2016,Photo,images/blog/photo/mbis-lab-workshop-2016.jpg,MBIS Lab held a workshop in 2016.
+2016-05-18,KOSOMBE 2016,Photo,images/blog/photo/kosombe-2016.jpg,MBIS Lab members attended KOSOMBE 2016.
+2016-03-11,SPIE Photonics West 2016,Photo,images/blog/photo/spie-photonics-west-2016.jpg,MBIS Lab members participated in SPIE Photonics West 2016.
+2015-12-02,The Acoustical Society of Korea 2015,Photo,images/blog/photo/acoustical-society-korea-2015.jpg,MBIS Lab members attended the Acoustical Society of Korea meeting in 2015.
+2015-08-29,"EMBC 2015 (Milan, Italy)",Photo,images/blog/photo/embc-2015-milan-italy.jpg,"MBIS Lab members attended EMBC 2015 in Milan, Italy."
+2015-07-11,MBIS Lab Workshop 2015,Photo,images/blog/photo/mbis-lab-workshop-2015.jpg,MBIS Lab held a workshop in 2015.
+2015-05-11,Teacher's Day 2015,Photo,images/blog/photo/teachers-day-2015.jpg,MBIS Lab celebrated Teacher's Day 2015.

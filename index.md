@@ -47,31 +47,6 @@ MBIS Lab conducts research in biomedical imaging, biomedical signal processing, 
 
 {% capture text %}
 
-We develop biomedical systems and healthcare technologies that connect engineering, clinical data, and intelligent analysis.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/research/mobile-healthcare-system.png"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
 Our lab brings together researchers in biomedical engineering, medical imaging, signal processing, artificial intelligence, and healthcare systems.
 
 {%
@@ -85,11 +60,12 @@ Our lab brings together researchers in biomedical engineering, medical imaging, 
 
 {% endcapture %}
 
-<!-- TODO: replace image below with a real lab group photo, e.g. images/people/lab-photo.jpg -->
 {%
   include feature.html
   image="images/research/deep-learning-image-analysis-enhancement.png"
   link="people"
   title="Our Team"
+  flip=true
+  style="bare"
   text=text
 %}
