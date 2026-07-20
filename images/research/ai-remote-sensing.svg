@@ -1,0 +1,46 @@
+<!-- placeholder image for the "AI for Remote Sensing" research card. Replace with a real photo/graphic when available. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <!-- ground / imaged terrain grid -->
+  <g stroke="#d7dbe2" stroke-width="2">
+    <line x1="150" y1="480" x2="850" y2="480" />
+    <line x1="150" y1="540" x2="850" y2="540" />
+    <line x1="150" y1="600" x2="850" y2="600" />
+    <line x1="150" y1="660" x2="850" y2="660" />
+    <line x1="220" y1="460" x2="180" y2="680" />
+    <line x1="360" y1="460" x2="340" y2="680" />
+    <line x1="500" y1="460" x2="500" y2="680" />
+    <line x1="640" y1="460" x2="660" y2="680" />
+    <line x1="780" y1="460" x2="820" y2="680" />
+  </g>
+
+  <!-- detected building / change-detection boxes -->
+  <g fill="none" stroke="#7c9cf5" stroke-width="4">
+    <rect x="255" y="555" width="70" height="55" />
+    <rect x="430" y="590" width="90" height="60" />
+    <rect x="620" y="540" width="65" height="50" />
+  </g>
+
+  <!-- orbit path -->
+  <ellipse cx="500" cy="300" rx="360" ry="120" fill="none" stroke="#c7cedb" stroke-width="2" stroke-dasharray="6 8" />
+
+  <!-- satellite body -->
+  <g transform="translate(690, 210) rotate(-18)">
+    <rect x="-24" y="-16" width="48" height="32" rx="4" fill="#3b4a6b" />
+    <rect x="-100" y="-6" width="66" height="12" fill="#7c9cf5" />
+    <rect x="-100" y="-6" width="66" height="12" fill="none" stroke="#3b4a6b" stroke-width="2" />
+    <rect x="34" y="-6" width="66" height="12" fill="#7c9cf5" />
+    <rect x="34" y="-6" width="66" height="12" fill="none" stroke="#3b4a6b" stroke-width="2" />
+    <line x1="0" y1="16" x2="0" y2="34" stroke="#3b4a6b" stroke-width="3" />
+    <circle cx="0" cy="40" r="6" fill="#3b4a6b" />
+  </g>
+
+  <!-- sensing beam from satellite to ground -->
+  <path d="M 690 226 L 610 470 L 770 470 Z" fill="#7c9cf5" opacity="0.12" />
+  <path d="M 690 226 L 610 470 M 690 226 L 770 470" stroke="#7c9cf5" stroke-width="2" stroke-dasharray="4 6" />
+
+  <!-- label -->
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#3b4a6b" font-weight="600">AI for Remote Sensing</text>
+  <text x="500" y="715" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9aa2b1">Placeholder graphic — replace with final image</text>
+</svg>
