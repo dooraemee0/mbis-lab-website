@@ -3,40 +3,76 @@
   image: "images/research/multimodal-biomedical-system.png"
   link: projects
   description: >
-    Development of multimodal biomedical imaging systems for early detection and characterization of diseases.
-    This research direction includes optical imaging, high-frequency ultrasound techniques, multimodal endoscopy,
-    and system-level biomedical imaging platforms.
+    Development of multimodal imaging systems that combine complementary contrast mechanisms — optical, spectral,
+    and acoustic — for early detection and characterization of disease. Our systems integrate multispectral and
+    photometric-stereo endoscopy, high-frequency acoustic radiation force impulse (ARFI) biomicroscopy, and
+    single-beam acoustic tweezers for probing cell mechanics. Recent work extends into acoustic holography and
+    ultrasound-based tissue optical clearing.
   tags:
     - multimodal-imaging
     - optical-imaging
     - high-frequency-ultrasound
     - endoscopy
+    - acoustic-tweezers
+    - acoustic-hologram
 
-- title: Mobile Healthcare System
-  subtitle: Smartphone-based and portable biomedical monitoring systems
+- title: Mobile & Connected Healthcare System
+  subtitle: Smartphone-based diagnostics and privacy-preserving learning
   image: "images/research/mobile-healthcare-system.png"
   link: projects
   description: >
-    Development of mobile healthcare systems, including smartphone-based mobile multispectral imaging systems
-    and deep learning-based ECG classification. Smartphone-based multispectral imaging systems can be used to
-    quantitatively detect skin lesions and support improved diagnostic outcomes.
+    Development of portable and smartphone-based diagnostic systems, together with the privacy-preserving learning
+    frameworks needed to deploy them at scale. Our smartphone multispectral imaging platform quantitatively
+    discriminates skin lesions such as seborrheic dermatitis and psoriasis, and our federated learning work enables
+    multi-institution model training on thyroid ultrasound and personalized skin diagnosis without sharing patient
+    data. We also develop deep learning-based ECG classification and smartphone-based indoor localization for
+    connected care environments.
   tags:
     - mobile-healthcare
     - smartphone-imaging
     - multispectral-imaging
-    - ECG-classification
+    - federated-learning
+    - ecg-classification
+    - privacy-preserving-ai
 
 - title: Deep Learning-based Image Analysis and Enhancement
-  subtitle: AI-driven medical image analysis, segmentation, tracking, and enhancement
+  subtitle: AI-driven medical image analysis, segmentation, and enhancement
   image: "images/research/deep-learning-image-analysis-enhancement.png"
   link: projects
   description: >
-    Development of deep learning and machine learning techniques for medical imaging and biomedical image analysis.
-    Research topics include spectral image analysis of tumor regions and skin lesions, 3D semantic segmentation of
-    diseased regions in ultrasound images, time-resolved object tracking, segmentation in biomedical optical images,
-    and advanced image enhancement.
+    Development of deep learning architectures for medical image segmentation, enhancement, and diagnosis, with an
+    emphasis on precise boundary delineation and adaptation to unseen clinical domains. Our contributions include
+    the USIM Gate upsampling operator (AISTATS 2023), stochastic adaptive activation functions (NeurIPS 2022), and
+    shape-memory networks for contextual semantic interpretation (ICLR 2025). Clinically, these methods power
+    expert-level diagnosis of incomplete Kawasaki disease from echocardiography, breast tumor segmentation under
+    speckle noise, real-time ultrasound enhancement for rotator cuff tear diagnosis, and velopharyngeal
+    insufficiency assessment from videofluoroscopy.
   tags:
     - deep-learning
     - medical-image-analysis
     - segmentation
     - image-enhancement
+    - domain-adaptation
+    - test-time-adaptation
+    - explainable-ai
+
+- title: AI for Remote Sensing
+  subtitle: Deep learning for aerial and satellite image analysis
+  image: "images/research/ai-remote-sensing.svg"  # TODO: replace placeholder with final images/research/ai-remote-sensing.png
+  link: projects
+  description: >
+    Development of deep learning algorithms for object extraction and change detection in high-resolution aerial
+    and satellite imagery, in collaboration with Dabeeo Inc., a geospatial data company. A central challenge in
+    remote sensing is the domain gap: a model trained on one city, season, or sensor degrades sharply on another.
+    Our research addresses this through domain-adaptive and test-time-adaptive learning — including self-mutating
+    networks (ICCV 2021), transfer-attack-based domain adaptation, and path-selective test-time adaptation — while
+    also targeting the fine-grained boundary accuracy required for automated digital map generation. Applications
+    extend to urban land change monitoring, defense, and autonomous driving.
+  tags:
+    - remote-sensing
+    - aerial-imagery
+    - satellite-imagery
+    - building-extraction
+    - change-detection
+    - domain-adaptation
+    - digital-mapping

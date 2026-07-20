@@ -52,6 +52,49 @@
     - neuromodulation
     - biomedical-system
 
+- title: Boundary-Precise Building Extraction from Aerial Imagery
+  subtitle: Manual-delineation-level building footprint extraction for digital mapping
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/boundary-precise-building-extraction.jpg
+  link: research
+  description: >
+    Deep learning models for extracting building footprints from high-resolution aerial and satellite images with
+    manual-delineation-level boundary accuracy, developed with Dabeeo Inc. for automated digital map generation.
+  tags:
+    - remote-sensing
+    - building-extraction
+    - digital-mapping
+    - industry-collaboration
+
+- title: Domain and Test-Time Adaptation for Remote Sensing
+  subtitle: Generalizing segmentation models to unseen regions, seasons, and sensors
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/domain-test-time-adaptation-remote-sensing.jpg
+  link: research
+  description: >
+    Adaptation frameworks that let a segmentation model trained on one region, season, or sensor generalize to
+    unseen imagery without retraining — via self-mutating networks, transfer-attack-based adaptation, and
+    path-selective test-time adaptation.
+  tags:
+    - domain-adaptation
+    - test-time-adaptation
+    - remote-sensing
+    - deep-learning
+
+- title: Federated Learning for Privacy-Preserving Medical AI
+  subtitle: Multi-institutional model training without sharing patient data
+  group: featured
+  image: images/fallback.svg  # TODO: add images/projects/federated-learning-privacy-preserving-medical-ai.jpg
+  link: research
+  description: >
+    Multi-institutional model training on thyroid ultrasound and skin images without transferring patient data,
+    validated in a real healthcare environment.
+  tags:
+    - federated-learning
+    - privacy-preserving-ai
+    - ultrasound
+    - skin-diagnosis
+
 - title: High-frequency Ultrasound Microbeam Technique
   subtitle: Ultrasound microbeam techniques for probing cell mechanics
   image: images/fallback.svg  # TODO: add images/projects/high-frequency-ultrasound-microbeam.jpg

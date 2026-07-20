@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-MBIS Lab develops biomedical imaging systems, mobile healthcare devices, and AI-based biomedical image analysis methods for next-generation diagnosis, monitoring, and treatment.
+MBIS Lab develops multimodal biomedical imaging systems, mobile healthcare devices, and AI algorithms that turn raw sensor data into clinically and geospatially actionable information.
 
-Our research focuses on multimodal biomedical systems, mobile healthcare systems, and deep learning-based image analysis and enhancement.
+Our work spans four directions: multimodal biomedical imaging systems, mobile and connected healthcare, deep learning for biomedical image analysis and enhancement, and AI for remote sensing. Across all four, we build the sensing hardware and the learning algorithms together — from high-frequency ultrasound and multispectral optics to domain-adaptive and test-time-adaptive neural networks — and validate them in real clinical and industrial settings.
 
 {% include section.html %}
 
