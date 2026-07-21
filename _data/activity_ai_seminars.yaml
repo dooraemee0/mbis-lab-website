@@ -1,13 +1,34 @@
+- date: '2026-01-23'
+  title: 26.01.23. Dohyun Kim, Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection
+  speaker: Dohyun Kim
+  topic: Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection
+  image: images/fallback.svg  # TODO: add images/blog/ai-seminar/dohyun-kim-2026-01-23.jpg
+  summary: AI seminar by Dohyun Kim on brain-inspired spiking neural networks for energy-efficient object detection.
+
+- date: '2025-08-26'
+  title: 25.08.26. Sehyun Park, Prompt2Perturb (P2P), Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images
+  speaker: Sehyun Park
+  topic: 'Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images'
+  image: images/fallback.svg  # TODO: add images/blog/ai-seminar/sehyun-park-2025-08-26.jpg
+  summary: AI seminar by Sehyun Park on Prompt2Perturb (P2P), a text-guided diffusion-based adversarial attack method for breast ultrasound images.
+
+- date: '2025-08-12'
+  title: 25.08.12. Moon Hwan Lee, Off-grid Ultrasound Imaging by Stochastic Optimization
+  speaker: Moon Hwan Lee
+  topic: Off-grid Ultrasound Imaging by Stochastic Optimization
+  image: images/fallback.svg  # TODO: add images/blog/ai-seminar/moon-hwan-lee-2025-08-12.jpg
+  summary: AI seminar by Moon Hwan Lee on off-grid ultrasound imaging via stochastic optimization.
+
 - date: '2025-07-29'
-  title: 25.07.29. Seong Hyun Kim, Simpler Diffusion
+  title: 25.07.29. Seong Hyun Kim, Simpler Diffusion (SiD2), 1.5 FID on ImageNet512 with Pixel-Space Diffusion
   speaker: Seong Hyun Kim
-  topic: Simpler Diffusion
+  topic: 'Simpler Diffusion (SiD2): 1.5 FID on ImageNet512 with Pixel-Space Diffusion'
   image: images/blog/ai-seminar/seong-hyun-kim-2025-07-29.jpg
-  summary: AI seminar by Seong Hyun Kim.
-  
-- date: '2025-07-29'
-  title: 25.07.15. Priyanka, Vision Transformers & Self Supervised Learning
+  summary: AI seminar by Seong Hyun Kim on Simpler Diffusion (SiD2), achieving 1.5 FID on ImageNet512 with pixel-space diffusion.
+
+- date: '2025-07-15'
+  title: 25.07.15. Priyanka, Vision Transformers & Self-Supervised Learning
   speaker: Priyanka
-  topic: Vision Transformers & Self Supervised Learning
+  topic: Vision Transformers & Self-Supervised Learning
   image: images/blog/ai-seminar/priyanka-2025-07-15.jpg
   summary: AI seminar by Priyanka on Vision Transformers and Self-Supervised Learning.

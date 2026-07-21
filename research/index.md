@@ -21,12 +21,6 @@ Our work spans four directions: multimodal biomedical imaging systems, mobile an
 
 {% include section.html %}
 
-## Featured Projects
+## Projects
 
-{% include list.html data="projects" component="card" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More Projects
-
-{% include list.html data="projects" component="card" filter="!group" style="small" %}
+{% include list.html data="projects" component="card" %}

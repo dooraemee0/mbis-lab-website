@@ -1,6 +1,5 @@
 - title: Multimodal Endoscopy System
   subtitle: Optical-multispectral and high-frequency-ultrasound endoscopy for gastric tumor detection
-  group: featured
   image: images/fallback.svg  # TODO: add images/projects/multimodal-endoscopy-system.jpg
   link: research
   description: >
@@ -17,7 +16,6 @@
 
 - title: Mobile Multispectral Imaging for Skin Care
   subtitle: Deep learning-based discrimination of scalp skin lesions via smartphone multispectral imaging
-  group: featured
   image: images/fallback.svg  # TODO: add images/projects/mobile-multispectral-skin-imaging.jpg
   link: research
   description: >
@@ -33,7 +31,6 @@
 
 - title: Deep Learning for Ultrasound Denoising and Wearable Monitoring
   subtitle: Self-attention denoising and coarse-to-fine shape estimation for wearable ultrasound
-  group: featured
   image: images/fallback.svg  # TODO: add images/projects/deep-learning-ultrasound-denoising-wearable.jpg
   link: research
   description: >
@@ -49,7 +46,6 @@
 
 - title: Ultrasound Neuromodulation System
   subtitle: Acoustic hologram techniques for transcranial ultrasound neuromodulation
-  group: featured
   image: images/fallback.svg  # TODO: add images/projects/ultrasound-neuromodulation-system.jpg
   link: research
   description: >
@@ -65,7 +61,6 @@
 
 - title: Boundary-Precise Building Extraction from Aerial Imagery
   subtitle: Boundary-oriented segmentation for manual-delineation-level digital mapping
-  group: featured
   image: images/fallback.svg  # TODO: add images/projects/boundary-precise-building-extraction.jpg
   link: research
   description: >
@@ -80,7 +75,6 @@
 
 - title: Federated Learning for Privacy-Preserving Medical AI
   subtitle: Multi-institutional model training validated in real healthcare environments
-  group: featured
   image: images/fallback.svg  # TODO: add images/projects/federated-learning-privacy-preserving-medical-ai.jpg
   link: research
   description: >
