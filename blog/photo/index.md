@@ -29,4 +29,20 @@ Lab photos, conference moments, and group activities.
   color: #0098d8;
   text-decoration: underline;
 }
+
+/* Lab photos come in mixed portrait/landscape orientations — show each at
+   its natural aspect ratio instead of the shared 3:2 crop. */
+.feature-image {
+  aspect-ratio: auto;
+  overflow: visible;
+  box-shadow: none;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
 </style>
