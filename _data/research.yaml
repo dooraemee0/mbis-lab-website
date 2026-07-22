@@ -1,7 +1,6 @@
 - title: Multimodal Biomedical System
   subtitle: Optical, ultrasound, and multimodal biomedical imaging systems
   image: "images/research/multimodal-biomedical-system.png"
-  link: projects
   description: >
     Development of multimodal imaging systems that combine complementary contrast mechanisms — optical, spectral,
     and acoustic — for early detection and characterization of disease. Our systems integrate multispectral and
@@ -19,7 +18,6 @@
 - title: Mobile & Connected Healthcare System
   subtitle: Smartphone-based diagnostics and privacy-preserving learning
   image: "images/research/mobile-healthcare-system.png"
-  link: projects
   description: >
     Development of portable and smartphone-based diagnostic systems, together with the privacy-preserving learning
     frameworks needed to deploy them at scale. Our smartphone multispectral imaging platform quantitatively
@@ -38,7 +36,6 @@
 - title: Deep Learning-based Image Analysis and Enhancement
   subtitle: AI-driven medical image analysis, segmentation, and enhancement
   image: "images/research/deep-learning-image-analysis-enhancement.png"
-  link: projects
   description: >
     Development of deep learning architectures for medical image segmentation, enhancement, and diagnosis, with an
     emphasis on precise boundary delineation and adaptation to unseen clinical domains. Our contributions include
@@ -59,7 +56,6 @@
 - title: AI for Remote Sensing
   subtitle: Deep learning for aerial and satellite image analysis
   image: "images/research/ai-remote-sensing.svg"  # TODO: replace placeholder with final images/research/ai-remote-sensing.png
-  link: projects
   description: >
     Development of deep learning algorithms for object extraction and change detection in high-resolution aerial
     and satellite imagery, in collaboration with Dabeeo Inc., a geospatial data company. A central challenge in
@@ -76,3 +72,99 @@
     - change-detection
     - domain-adaptation
     - digital-mapping
+
+- title: Multimodal Endoscopy System
+  subtitle: Optical-multispectral and high-frequency-ultrasound endoscopy for gastric tumor detection
+  image: images/fallback.svg  # TODO: add images/projects/multimodal-endoscopy-system.jpg
+  description: >
+    A forward-looking endoscopic system fusing optical multispectral and high-frequency ultrasound imaging for
+    real-time gastric tumor detection (IEEE Transactions on Medical Imaging, 2020), later extended with
+    photometric-stereo imaging for 3D lesion topography to aid delineation of malignant gastric lesions
+    (Biomedical Optics Express, 2019).
+  tags:
+    - endoscopy
+    - multimodal-imaging
+    - multispectral-imaging
+    - high-frequency-ultrasound
+    - gastric-lesion
+
+- title: Mobile Multispectral Imaging for Skin Care
+  subtitle: Deep learning-based discrimination of scalp skin lesions via smartphone multispectral imaging
+  image: images/fallback.svg  # TODO: add images/projects/mobile-multispectral-skin-imaging.jpg
+  description: >
+    Smartphone-based multispectral imaging with machine learning-based discrimination between seborrheic
+    dermatitis and psoriasis on the scalp (Biomedical Optics Express, 2019), extended with mSpecFusion-Net, a
+    multimodal deep fusion network for differential diagnosis of psoriasis and dermatitis (MICCAI 2026).
+  tags:
+    - mobile-healthcare
+    - multispectral-imaging
+    - smartphone-imaging
+    - skin-diagnosis
+    - deep-learning
+
+- title: Deep Learning for Ultrasound Denoising and Wearable Monitoring
+  subtitle: Self-attention denoising and coarse-to-fine shape estimation for wearable ultrasound
+  image: images/fallback.svg  # TODO: add images/projects/deep-learning-ultrasound-denoising-wearable.jpg
+  description: >
+    A multi-scale self-attention network for denoising medical ultrasound images (APSIPA Transactions on Signal
+    and Information Processing, 2024), and a deep learning-based coarse-to-fine shape estimation model for
+    accurate bladder volume monitoring on wearable ultrasound devices (IEEE Transactions on Ultrasonics,
+    Ferroelectrics, and Frequency Control, 2024).
+  tags:
+    - deep-learning
+    - image-enhancement
+    - ultrasound
+    - wearable-ultrasound
+
+- title: Ultrasound Neuromodulation System
+  subtitle: Acoustic hologram techniques for transcranial ultrasound neuromodulation
+  image: images/fallback.svg  # TODO: add images/projects/ultrasound-neuromodulation-system.jpg
+  description: >
+    A machine learning-enhanced, skull-universal acoustic hologram for efficient transcranial ultrasound
+    neuromodulation across varied rodent skulls (IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency
+    Control, 2024), extended to a physics-aware hologram technique for high-fidelity multi-focal stimulation
+    (Brain Stimulation, 2026).
+  tags:
+    - ultrasound
+    - neuromodulation
+    - acoustic-hologram
+    - biomedical-system
+
+- title: Boundary-Precise Building Extraction from Aerial Imagery
+  subtitle: Boundary-oriented segmentation for manual-delineation-level digital mapping
+  image: images/fallback.svg  # TODO: add images/projects/boundary-precise-building-extraction.jpg
+  description: >
+    A boundary-oriented binary building segmentation model with two-scheme learning for aerial images (IEEE
+    Transactions on Geoscience & Remote Sensing, 2021), developed with Dabeeo Inc. to reach
+    manual-delineation-level footprint accuracy for automated digital map generation.
+  tags:
+    - remote-sensing
+    - building-extraction
+    - digital-mapping
+    - industry-collaboration
+
+- title: Federated Learning for Privacy-Preserving Medical AI
+  subtitle: Multi-institutional model training validated in real healthcare environments
+  image: images/fallback.svg  # TODO: add images/projects/federated-learning-privacy-preserving-medical-ai.jpg
+  description: >
+    Federated learning frameworks validated in real clinical settings: multi-institution thyroid ultrasound
+    analysis that protects patient information (JMIR Medical Informatics), and a fine-tuning network for
+    personalized skin diagnosis across institutions (MICCAI 2023).
+  tags:
+    - federated-learning
+    - privacy-preserving-ai
+    - ultrasound
+    - skin-diagnosis
+
+- title: High-frequency Ultrasound Microbeam Technique
+  subtitle: Non-contact acoustic techniques for probing cell mechanics
+  image: images/fallback.svg  # TODO: add images/projects/high-frequency-ultrasound-microbeam.jpg
+  description: >
+    Non-contact high-frequency ultrasound microbeam and single-beam acoustic tweezer techniques for probing cell
+    mechanics, applied to mechanotransduction in vascular endothelial cells (Ultrasound in Medicine & Biology,
+    2014) and intracellular calcium signaling in breast cancer cells (Ultrasonics, 2015).
+  tags:
+    - high-frequency-ultrasound
+    - acoustic-tweezers
+    - cell-mechanics
+    - acoustic-techniques

@@ -13,14 +13,6 @@ Our work spans four directions: multimodal biomedical imaging systems, mobile an
 
 {% include section.html %}
 
-## Research Areas
-
 {% include search-info.html %}
 
 {% include list.html data="research" component="card" %}
-
-{% include section.html %}
-
-## Projects
-
-{% include list.html data="projects" component="card" %}
