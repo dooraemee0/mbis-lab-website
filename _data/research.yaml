@@ -118,7 +118,7 @@
 
 - title: Ultrasound Neuromodulation System
   subtitle: Acoustic hologram techniques for transcranial ultrasound neuromodulation
-  image: images/fallback.svg  # TODO: add images/projects/ultrasound-neuromodulation-system.jpg
+  image: images/research/ultrasound-neuromodulation-system.jpg
   description: >
     A machine learning-enhanced, skull-universal acoustic hologram for efficient transcranial ultrasound
     neuromodulation across varied rodent skulls (IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency
