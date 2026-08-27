@@ -1,0 +1,59 @@
+<!-- illustrative topic graphic for the "Boundary-Precise Building Extraction from Aerial Imagery" research card -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#3b4a6b" font-weight="600">Boundary-Precise Building Extraction</text>
+  <text x="500" y="122" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#7c9cf5">Two-Scheme Learning for Aerial Imagery</text>
+
+  <!-- aerial tile background -->
+  <g transform="translate(120, 190)">
+    <rect width="330" height="330" rx="6" fill="#2f3a2f" />
+    <g stroke="#425242" stroke-width="1">
+      <line x1="0" y1="80" x2="330" y2="80" /><line x1="0" y1="170" x2="330" y2="170" /><line x1="0" y1="250" x2="330" y2="250" />
+      <line x1="90" y1="0" x2="90" y2="330" /><line x1="190" y1="0" x2="190" y2="330" /><line x1="270" y1="0" x2="270" y2="330" />
+    </g>
+    <rect x="105" y="95" width="90" height="70" fill="#4a4a3a" />
+    <rect x="215" y="180" width="75" height="60" fill="#4a4a3a" />
+
+    <!-- coarse / blurry initial mask -->
+    <path d="M 95 88 Q 150 80 205 92 Q 210 130 200 172 Q 150 178 100 168 Q 88 128 95 88 Z"
+          fill="#e07856" opacity="0.4" />
+    <!-- boundary-precise refined outline -->
+    <rect x="105" y="95" width="90" height="70" fill="none" stroke="#f6c453" stroke-width="3" />
+
+    <path d="M 205 172 Q 250 168 295 178 Q 300 210 292 242 Q 250 248 210 238 Q 205 205 205 172 Z"
+          fill="#e07856" opacity="0.4" />
+    <rect x="215" y="180" width="75" height="60" fill="none" stroke="#f6c453" stroke-width="3" />
+
+    <text x="165" y="-15" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9aa2b1">aerial image</text>
+  </g>
+
+  <path d="M 470 355 L 530 355" stroke="#3b4a6b" stroke-width="3" marker-end="url(#a2)" />
+  <defs>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#3b4a6b" />
+    </marker>
+  </defs>
+
+  <!-- two-scheme learning boxes -->
+  <g transform="translate(560, 220)">
+    <rect width="180" height="80" rx="8" fill="#e5ecfb" stroke="#7c9cf5" stroke-width="2" />
+    <text x="90" y="35" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#3b4a6b" font-weight="600">Scheme 1</text>
+    <text x="90" y="58" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3b4a6b">region mask</text>
+  </g>
+  <g transform="translate(560, 320)">
+    <rect width="180" height="80" rx="8" fill="#e5ecfb" stroke="#7c9cf5" stroke-width="2" />
+    <text x="90" y="35" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#3b4a6b" font-weight="600">Scheme 2</text>
+    <text x="90" y="58" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3b4a6b">boundary map</text>
+  </g>
+  <path d="M 740 260 L 790 300" stroke="#c7cedb" stroke-width="2" />
+  <path d="M 740 360 L 790 320" stroke="#c7cedb" stroke-width="2" />
+
+  <!-- final precise footprint output -->
+  <g transform="translate(870, 300)">
+    <rect x="-70" y="-70" width="140" height="140" rx="8" fill="#ffffff" stroke="#c7cedb" stroke-width="2" />
+    <path d="M -40 -20 L 10 -35 L 40 5 L 15 40 L -30 30 Z" fill="none" stroke="#f6c453" stroke-width="4" stroke-linejoin="round" />
+    <text x="0" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9aa2b1">manual-delineation-level</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9aa2b1">footprint</text>
+  </g>
+</svg>
