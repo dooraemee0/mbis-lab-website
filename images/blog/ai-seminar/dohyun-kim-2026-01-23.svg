@@ -1,0 +1,57 @@
+<!-- illustrative topic graphic for the "Brain-Inspired Spiking Neural Networks" AI seminar -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <!-- brain outline -->
+  <path d="M 260 330
+           C 200 300, 200 220, 250 190
+           C 245 140, 300 105, 345 125
+           C 375 95, 435 100, 455 140
+           C 500 130, 545 165, 535 210
+           C 575 225, 580 285, 540 310
+           C 555 355, 520 400, 470 395
+           C 455 430, 400 440, 375 410
+           C 325 425, 275 395, 275 355
+           Z"
+        fill="none" stroke="#3b4a6b" stroke-width="4" />
+  <path d="M 300 190 C 320 200, 320 230, 300 245 M 350 165 C 370 180, 365 215, 345 225
+           M 400 155 C 420 165, 425 195, 405 210 M 450 175 C 470 185, 470 215, 450 225
+           M 490 215 C 505 225, 505 250, 485 260"
+        fill="none" stroke="#7c9cf5" stroke-width="3" />
+
+  <!-- spike / pulse waveform emitted from the brain -->
+  <path d="M 560 260 L 590 260 L 605 210 L 625 310 L 645 240 L 665 280 L 685 260 L 900 260"
+        fill="none" stroke="#e07856" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+
+  <!-- simple 3-layer spiking network -->
+  <g stroke="#c7cedb" stroke-width="2">
+    <line x1="300" y1="480" x2="500" y2="440" />
+    <line x1="300" y1="480" x2="500" y2="520" />
+    <line x1="300" y1="480" x2="500" y2="600" />
+    <line x1="300" y1="560" x2="500" y2="440" />
+    <line x1="300" y1="560" x2="500" y2="520" />
+    <line x1="300" y1="560" x2="500" y2="600" />
+    <line x1="300" y1="640" x2="500" y2="440" />
+    <line x1="300" y1="640" x2="500" y2="520" />
+    <line x1="300" y1="640" x2="500" y2="600" />
+    <line x1="500" y1="440" x2="700" y2="520" />
+    <line x1="500" y1="520" x2="700" y2="520" />
+    <line x1="500" y1="600" x2="700" y2="520" />
+  </g>
+  <g fill="#3b4a6b">
+    <circle cx="300" cy="480" r="10" />
+    <circle cx="300" cy="560" r="10" />
+    <circle cx="300" cy="640" r="10" />
+    <circle cx="500" cy="440" r="10" />
+    <circle cx="500" cy="520" r="10" />
+    <circle cx="500" cy="600" r="10" />
+  </g>
+  <circle cx="700" cy="520" r="14" fill="#e07856" />
+
+  <!-- object-detection box -->
+  <rect x="780" y="450" width="140" height="110" rx="6" fill="none" stroke="#7c9cf5" stroke-width="3" stroke-dasharray="8 6" />
+  <text x="850" y="440" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#7c9cf5">object</text>
+  <rect x="815" y="485" width="70" height="45" rx="4" fill="#e5ecfb" stroke="#7c9cf5" stroke-width="2" />
+
+  <text x="500" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#3b4a6b" font-weight="600">Brain-Inspired Spiking Neural Networks</text>
+</svg>

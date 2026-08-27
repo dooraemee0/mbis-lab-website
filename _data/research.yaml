@@ -88,17 +88,22 @@
     - high-frequency-ultrasound
     - gastric-lesion
 
-- title: Mobile Multispectral Imaging for Skin Care
-  subtitle: Deep learning-based discrimination of scalp skin lesions via smartphone multispectral imaging
-  image: images/fallback.svg  # TODO: add images/projects/mobile-multispectral-skin-imaging.jpg
+- title: Multimodal Imaging for Skin Care
+  subtitle: Smartphone multispectral imaging and high-frequency ultrasound layer analysis for skin diagnostics
+  image: images/research/multimodal-skin-imaging.jpg
   description: >
     Smartphone-based multispectral imaging with machine learning-based discrimination between seborrheic
     dermatitis and psoriasis on the scalp (Biomedical Optics Express, 2019), extended with mSpecFusion-Net, a
     multimodal deep fusion network for differential diagnosis of psoriasis and dermatitis (MICCAI 2026).
+    Complemented by a high-frequency ultrasound skin-layer analysis technique that segments the epidermis,
+    dermis, and subcutaneous fat layer using a few-shot deep learning model (UniverSeg architecture),
+    enabling structural skin assessment beyond surface-level imaging.
   tags:
     - mobile-healthcare
     - multispectral-imaging
     - smartphone-imaging
+    - high-frequency-ultrasound
+    - skin-layer-segmentation
     - skin-diagnosis
     - deep-learning
 
