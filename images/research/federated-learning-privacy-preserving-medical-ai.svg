@@ -1,0 +1,67 @@
+<!-- illustrative topic graphic for the "Federated Learning for Privacy-Preserving Medical AI" research card -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#3b4a6b" font-weight="600">Federated Learning for Privacy-Preserving Medical AI</text>
+
+  <!-- central global model -->
+  <g transform="translate(500, 400)">
+    <circle r="70" fill="#3b4a6b" />
+    <circle r="70" fill="none" stroke="#7c9cf5" stroke-width="3" stroke-dasharray="3 6" />
+    <text x="0" y="-6" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#ffffff" font-weight="600">global</text>
+    <text x="0" y="16" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#ffffff" font-weight="600">model</text>
+  </g>
+
+  <!-- 4 institutions around the center, each with a small lock (privacy) and modality icon -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <!-- hospital A: thyroid ultrasound -->
+    <g transform="translate(210, 210)">
+      <rect x="-70" y="-50" width="140" height="100" rx="10" fill="#ffffff" stroke="#c7cedb" stroke-width="2" />
+      <path d="M -20 -20 Q 0 -35 20 -20 Q 30 0 20 15 Q 0 30 -20 15 Q -30 0 -20 -20 Z" fill="none" stroke="#e07856" stroke-width="2.5" />
+      <circle cx="24" cy="-28" r="10" fill="#7c9cf5" />
+      <path d="M 20 -28 a 4 5 0 0 1 8 0 M 18 -25 h 12 v 8 h -12 z" fill="none" stroke="#ffffff" stroke-width="1.4" />
+      <text x="0" y="36" text-anchor="middle" font-size="14" fill="#9aa2b1">Hospital A · thyroid US</text>
+    </g>
+    <!-- hospital B: skin diagnosis -->
+    <g transform="translate(790, 210)">
+      <rect x="-70" y="-50" width="140" height="100" rx="10" fill="#ffffff" stroke="#c7cedb" stroke-width="2" />
+      <circle cx="0" cy="-2" r="24" fill="none" stroke="#e07856" stroke-width="2.5" />
+      <circle cx="-6" cy="-8" r="3" fill="#e07856" /><circle cx="6" cy="2" r="3" fill="#e07856" /><circle cx="-2" cy="10" r="3" fill="#e07856" />
+      <circle cx="24" cy="-28" r="10" fill="#7c9cf5" />
+      <path d="M 20 -28 a 4 5 0 0 1 8 0 M 18 -25 h 12 v 8 h -12 z" fill="none" stroke="#ffffff" stroke-width="1.4" />
+      <text x="0" y="36" text-anchor="middle" font-size="14" fill="#9aa2b1">Hospital B · skin diagnosis</text>
+    </g>
+    <!-- hospital C -->
+    <g transform="translate(210, 560)">
+      <rect x="-70" y="-50" width="140" height="100" rx="10" fill="#ffffff" stroke="#c7cedb" stroke-width="2" />
+      <path d="M -20 -20 Q 0 -35 20 -20 Q 30 0 20 15 Q 0 30 -20 15 Q -30 0 -20 -20 Z" fill="none" stroke="#e07856" stroke-width="2.5" />
+      <circle cx="24" cy="-28" r="10" fill="#7c9cf5" />
+      <path d="M 20 -28 a 4 5 0 0 1 8 0 M 18 -25 h 12 v 8 h -12 z" fill="none" stroke="#ffffff" stroke-width="1.4" />
+      <text x="0" y="36" text-anchor="middle" font-size="14" fill="#9aa2b1">Hospital C · thyroid US</text>
+    </g>
+    <!-- hospital D -->
+    <g transform="translate(790, 560)">
+      <rect x="-70" y="-50" width="140" height="100" rx="10" fill="#ffffff" stroke="#c7cedb" stroke-width="2" />
+      <circle cx="0" cy="-2" r="24" fill="none" stroke="#e07856" stroke-width="2.5" />
+      <circle cx="-6" cy="-8" r="3" fill="#e07856" /><circle cx="6" cy="2" r="3" fill="#e07856" /><circle cx="-2" cy="10" r="3" fill="#e07856" />
+      <circle cx="24" cy="-28" r="10" fill="#7c9cf5" />
+      <path d="M 20 -28 a 4 5 0 0 1 8 0 M 18 -25 h 12 v 8 h -12 z" fill="none" stroke="#ffffff" stroke-width="1.4" />
+      <text x="0" y="36" text-anchor="middle" font-size="14" fill="#9aa2b1">Hospital D · skin diagnosis</text>
+    </g>
+  </g>
+
+  <!-- model-update arrows (weights only, not patient data) -->
+  <g fill="none" stroke="#7c9cf5" stroke-width="2.5" stroke-dasharray="6 6">
+    <path d="M 260 250 L 440 360" marker-end="url(#a3)" />
+    <path d="M 740 250 L 560 360" marker-end="url(#a3)" />
+    <path d="M 260 520 L 440 440" marker-end="url(#a3)" />
+    <path d="M 740 520 L 560 440" marker-end="url(#a3)" />
+  </g>
+  <defs>
+    <marker id="a3" markerWidth="9" markerHeight="9" refX="5" refY="2.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,5 L5,2.5 z" fill="#7c9cf5" />
+    </marker>
+  </defs>
+
+  <text x="500" y="685" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9aa2b1">only model weights are shared — patient data stays local</text>
+</svg>
