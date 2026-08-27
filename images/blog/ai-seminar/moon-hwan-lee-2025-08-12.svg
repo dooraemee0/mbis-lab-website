@@ -1,0 +1,51 @@
+<!-- illustrative topic graphic for the "Off-grid Ultrasound Imaging by Stochastic Optimization" AI seminar -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <!-- ultrasound probe -->
+  <g transform="translate(500, 160)">
+    <rect x="-35" y="-60" width="70" height="80" rx="8" fill="#3b4a6b" />
+    <path d="M -35 20 L -60 70 L 60 70 L 35 20 Z" fill="#3b4a6b" />
+  </g>
+  <path d="M 470 235 L 300 330 M 500 245 L 500 340 M 530 235 L 700 330"
+        stroke="#c7cedb" stroke-width="2" stroke-dasharray="5 6" />
+
+  <!-- regular imaging grid -->
+  <g stroke="#dfe3ea" stroke-width="1.5">
+    <line x1="220" y1="380" x2="220" y2="620" /><line x1="300" y1="380" x2="300" y2="620" />
+    <line x1="380" y1="380" x2="380" y2="620" /><line x1="460" y1="380" x2="460" y2="620" />
+    <line x1="540" y1="380" x2="540" y2="620" /><line x1="620" y1="380" x2="620" y2="620" />
+    <line x1="700" y1="380" x2="700" y2="620" /><line x1="780" y1="380" x2="780" y2="620" />
+    <line x1="220" y1="380" x2="780" y2="380" /><line x1="220" y1="440" x2="780" y2="440" />
+    <line x1="220" y1="500" x2="780" y2="500" /><line x1="220" y1="560" x2="780" y2="560" />
+    <line x1="220" y1="620" x2="780" y2="620" />
+  </g>
+  <g fill="#c7cedb">
+    <circle cx="300" cy="440" r="4" /><circle cx="460" cy="440" r="4" /><circle cx="620" cy="440" r="4" />
+    <circle cx="300" cy="500" r="4" /><circle cx="460" cy="500" r="4" /><circle cx="620" cy="500" r="4" />
+    <circle cx="300" cy="560" r="4" /><circle cx="460" cy="560" r="4" /><circle cx="620" cy="560" r="4" />
+  </g>
+
+  <!-- off-grid true scatterer positions with optimization arrows converging -->
+  <g fill="#e07856">
+    <circle cx="345" cy="465" r="8" /><circle cx="530" cy="415" r="8" />
+    <circle cx="600" cy="565" r="8" /><circle cx="410" cy="600" r="8" />
+  </g>
+  <g fill="none" stroke="#e07856" stroke-width="2" stroke-dasharray="4 5">
+    <path d="M 300 440 Q 320 452 345 465" marker-end="url(#arrow2)" />
+    <path d="M 460 440 Q 495 427 530 415" marker-end="url(#arrow2)" />
+    <path d="M 620 500 Q 610 532 600 565" marker-end="url(#arrow2)" />
+    <path d="M 460 560 Q 435 580 410 600" marker-end="url(#arrow2)" />
+  </g>
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="5" refY="2.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,5 L5,2.5 z" fill="#e07856" />
+    </marker>
+  </defs>
+
+  <text x="250" y="660" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9aa2b1">fixed grid</text>
+  <text x="640" y="660" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#e07856">off-grid scatterers (optimized)</text>
+
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#3b4a6b" font-weight="600">Off-grid Ultrasound Imaging</text>
+  <text x="500" y="120" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#7c9cf5">by Stochastic Optimization</text>
+</svg>

@@ -1,0 +1,48 @@
+<!-- illustrative topic graphic for the "Prompt2Perturb" AI seminar -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <!-- ultrasound probe -->
+  <g transform="translate(160, 220)">
+    <rect x="-30" y="-70" width="60" height="90" rx="10" fill="#3b4a6b" />
+    <path d="M -30 20 L -55 70 L 55 70 L 30 20 Z" fill="#3b4a6b" />
+  </g>
+  <path d="M 133 290 L 60 420 M 187 290 L 260 420 M 160 300 L 160 430"
+        stroke="#7c9cf5" stroke-width="2" stroke-dasharray="5 6" />
+
+  <!-- clean sonogram panel -->
+  <rect x="70" y="430" width="200" height="150" rx="6" fill="#1c1c1c" opacity="0.85" />
+  <path d="M 90 480 Q 120 460 150 480 T 210 480 T 250 480" stroke="#7c9cf5" stroke-width="2" fill="none" opacity="0.8" />
+  <path d="M 90 520 Q 130 500 170 525 T 250 515" stroke="#7c9cf5" stroke-width="2" fill="none" opacity="0.6" />
+  <ellipse cx="170" cy="500" rx="45" ry="30" fill="none" stroke="#e5ecfb" stroke-width="2" opacity="0.7" />
+  <text x="170" y="610" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9aa2b1">breast ultrasound</text>
+
+  <!-- prompt bubble -->
+  <g transform="translate(470, 380)">
+    <rect x="-90" y="-60" width="180" height="90" rx="16" fill="#e5ecfb" stroke="#7c9cf5" stroke-width="2" />
+    <path d="M -20 30 L -5 60 L 15 30 Z" fill="#e5ecfb" stroke="#7c9cf5" stroke-width="2" />
+    <text x="0" y="-15" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#3b4a6b" font-weight="600">"add subtle</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#3b4a6b" font-weight="600">shadow artifact"</text>
+  </g>
+
+  <path d="M 570 480 L 660 480" stroke="#3b4a6b" stroke-width="3" marker-end="url(#arrow)" />
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#3b4a6b" />
+    </marker>
+  </defs>
+
+  <!-- perturbed sonogram panel -->
+  <rect x="700" y="430" width="200" height="150" rx="6" fill="#1c1c1c" opacity="0.85" />
+  <path d="M 720 480 Q 750 460 780 480 T 840 480 T 880 480" stroke="#7c9cf5" stroke-width="2" fill="none" opacity="0.8" />
+  <path d="M 720 520 Q 760 500 800 525 T 880 515" stroke="#7c9cf5" stroke-width="2" fill="none" opacity="0.6" />
+  <ellipse cx="800" cy="500" rx="45" ry="30" fill="none" stroke="#e5ecfb" stroke-width="2" opacity="0.7" />
+  <g fill="#e07856" opacity="0.75">
+    <circle cx="740" cy="450" r="2.5" /><circle cx="760" cy="565" r="2.5" /><circle cx="855" cy="445" r="2.5" />
+    <circle cx="870" cy="560" r="2.5" /><circle cx="800" cy="440" r="2.5" /><circle cx="730" cy="500" r="2.5" />
+    <circle cx="875" cy="500" r="2.5" /><circle cx="820" cy="570" r="2.5" /><circle cx="750" cy="530" r="2.5" />
+  </g>
+  <text x="800" y="610" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9aa2b1">adversarial perturbation</text>
+
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#3b4a6b" font-weight="600">Prompt2Perturb: Text-Guided Adversarial Attacks</text>
+</svg>

@@ -1,0 +1,61 @@
+<!-- illustrative topic graphic for the "Simpler Diffusion (SiD2)" AI seminar -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect fill="#f7f8fa" x="0" y="0" width="1000" height="750" />
+
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#3b4a6b" font-weight="600">Simpler Diffusion (SiD2)</text>
+  <text x="500" y="125" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#7c9cf5">Pixel-Space Diffusion</text>
+
+  <!-- 5-step noise -> image denoising strip -->
+  <g>
+    <!-- step 1: pure noise -->
+    <g transform="translate(120, 300)">
+      <rect width="140" height="140" rx="6" fill="#1c1c1c" />
+      <g fill="#7c9cf5" opacity="0.9">
+        <circle cx="12" cy="14" r="2" /><circle cx="34" cy="52" r="2" /><circle cx="66" cy="10" r="2" /><circle cx="88" cy="44" r="2" />
+        <circle cx="110" cy="18" r="2" /><circle cx="20" cy="80" r="2" /><circle cx="50" cy="100" r="2" /><circle cx="78" cy="76" r="2" />
+        <circle cx="104" cy="96" r="2" /><circle cx="128" cy="60" r="2" /><circle cx="18" cy="120" r="2" /><circle cx="60" cy="128" r="2" />
+        <circle cx="96" cy="122" r="2" /><circle cx="124" cy="110" r="2" /><circle cx="8" cy="46" r="2" /><circle cx="132" cy="30" r="2" />
+      </g>
+    </g>
+    <path d="M 278 370 L 320 370" stroke="#3b4a6b" stroke-width="3" marker-end="url(#arrow3)" />
+
+    <!-- step 2 -->
+    <g transform="translate(338, 300)">
+      <rect width="140" height="140" rx="6" fill="#242424" />
+      <circle cx="70" cy="70" r="45" fill="#2f3a55" opacity="0.8" />
+      <g fill="#7c9cf5" opacity="0.5">
+        <circle cx="20" cy="20" r="1.6" /><circle cx="120" cy="30" r="1.6" /><circle cx="30" cy="120" r="1.6" /><circle cx="115" cy="115" r="1.6" />
+      </g>
+    </g>
+    <path d="M 496 370 L 538 370" stroke="#3b4a6b" stroke-width="3" marker-end="url(#arrow3)" />
+
+    <!-- step 3 -->
+    <g transform="translate(556, 300)">
+      <rect width="140" height="140" rx="6" fill="#2c2c2c" />
+      <circle cx="70" cy="70" r="46" fill="#3b4a6b" />
+      <circle cx="70" cy="70" r="26" fill="#7c9cf5" />
+    </g>
+    <path d="M 714 370 L 756 370" stroke="#3b4a6b" stroke-width="3" marker-end="url(#arrow3)" />
+
+    <!-- step 4: clean generated image -->
+    <g transform="translate(774, 300)">
+      <rect width="140" height="140" rx="6" fill="#e5ecfb" stroke="#7c9cf5" stroke-width="2" />
+      <circle cx="70" cy="58" r="30" fill="#f6c453" />
+      <path d="M 10 130 L 55 85 L 90 115 L 125 75 L 132 130 Z" fill="#7fbf7f" />
+    </g>
+  </g>
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#3b4a6b" />
+    </marker>
+  </defs>
+
+  <text x="190" y="475" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9aa2b1">noise</text>
+  <text x="844" y="475" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9aa2b1">generated image</text>
+
+  <!-- FID callout -->
+  <g transform="translate(500, 590)">
+    <rect x="-190" y="-32" width="380" height="64" rx="32" fill="#3b4a6b" />
+    <text x="0" y="9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" font-weight="600">1.5 FID on ImageNet512</text>
+  </g>
+</svg>
